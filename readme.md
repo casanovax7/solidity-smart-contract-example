@@ -1,6 +1,6 @@
 # Sample Solidity Smart contract
 
-This repository is an example of writing a contract, compiling with Waffle, and testing with mocah/chai
+This repository is an example of writing a contract, compiling with Waffle, and testing with mocha/chai
 
 ## Writing
 
