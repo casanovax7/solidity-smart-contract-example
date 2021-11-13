@@ -1,0 +1,26 @@
+{
+  "name": "solidity-smart-contracts-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && mocha -r @babel/register 'tests/**/*.spec.js'  --timeout 5000",
+    "build": "waffle"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/register": "^7.15.3",
+    "@openzeppelin/contracts": "^4.3.2",
+    "bignumber.js": "^9.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "mocha": "^9.1.3",
+    "web3": "^1.6.0"
+  }
+}
